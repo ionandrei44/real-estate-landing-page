@@ -6,10 +6,11 @@ import { properties } from "../properties";
 const Properties = () => {
   const PropertiesBox = styled(Box)(({ theme }) => ({
     display: "flex",
+    
     justifyContent: "space-between",
     marginTop: theme.spacing(5),
     [theme.breakpoints.down("md")]: {
-      flexDirection: "column",
+      flexDirection: "colume",
       alignItems: "center",
     },
   }));
@@ -25,7 +26,7 @@ const Properties = () => {
       <Container>
         <PropertiesTextBox>
           <Typography
-            sx={{ color: "#000339", fontSize: "35px", fontWeight: "bold" }}
+            sx={{ color: "#D2042D", fontSize: "35px", fontWeight: "bold" }}
           >
             Featured Properties
           </Typography>

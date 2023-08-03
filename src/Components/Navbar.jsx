@@ -72,7 +72,7 @@ export const Navbar = () => {
     fontWeight: "bold",
     cursor: "pointer",
     "&:hover": {
-      color: "#fff",
+      color: "#D2042D",
     },
   }));
 
@@ -107,6 +107,7 @@ export const Navbar = () => {
 
   const NavbarLogo = styled("img")(({ theme }) => ({
     cursor: "pointer",
+    width : "60px",
     [theme.breakpoints.down("md")]: {
       display: "none",
     },
@@ -132,6 +133,8 @@ export const Navbar = () => {
             {list("left")}
           </Drawer>
           <NavbarLogo src={logoImg} alt="logo" />
+       
+
         </Box>
 
         <NavbarLinksBox>
@@ -153,9 +156,10 @@ export const Navbar = () => {
       >
         <NavLink variant="body2">Sign Up</NavLink>
         <CustomButton
-          backgroundColor="#0F1B4C"
+          backgroundColor="#D2042D"
           color="#fff"
           buttonText="Register"
+        
         />
       </Box>
     </NavbarContainer>

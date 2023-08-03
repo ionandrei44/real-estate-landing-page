@@ -1,9 +1,9 @@
 import { Box, Button, styled, Typography } from "@mui/material";
 import React from "react";
 
-import buyIcon from "../media/buy_icon.png";
-import sellIcon from "../media/sell_icon.png";
-import rentIcon from "../media/rent_icon.png";
+import bookIcon from "../media/icons8-booking-64.png";
+import payIcon from "../media/icons8-pay-100.png";
+import workingIcon from "../media/working.png";
 
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import CustomButton from "./CustomButton";
@@ -52,7 +52,7 @@ const Guide = () => {
     >
       <div
         style={{
-          width: "5%",
+          width: "10%",
           height: "5px",
           backgroundColor: "#000339",
           margin: "0 auto",
@@ -61,7 +61,7 @@ const Guide = () => {
 
       <Typography
         variant="h3"
-        sx={{ fontSize: "35px", fontWeight: "bold", color: "#000339", my: 3 }}
+        sx={{ fontSize: "35px", fontWeight: "bold", color: "#D2042D", my: 3 }}
       >
         How it works?
       </Typography>
@@ -83,7 +83,11 @@ const Guide = () => {
 
       <GuidesBox>
         <GuideBox>
-          <img src={buyIcon} alt="buyIcon" />
+          <img src={bookIcon} alt="buyIcon" style={{
+            height: '150px',
+            width: '150px',
+
+          }} />
           <Typography
             variant="body2"
             sx={{
@@ -93,7 +97,7 @@ const Guide = () => {
               my: 1,
             }}
           >
-            Buying Guides
+            Book A Space 
           </Typography>
           <Box
             sx={{
@@ -114,7 +118,10 @@ const Guide = () => {
         </GuideBox>
 
         <GuideBox>
-          <img src={rentIcon} alt="buyIcon" />
+          <img src={payIcon} alt="buyIcon" style={{
+            height: '150px',
+            width : '150px',
+          }} />
           <Typography
             variant="body2"
             sx={{
@@ -124,7 +131,7 @@ const Guide = () => {
               my: 1,
             }}
           >
-            Renting Guides
+            Pay & Recive invoice 
           </Typography>
           <Box
             sx={{
@@ -145,7 +152,10 @@ const Guide = () => {
         </GuideBox>
 
         <GuideBox>
-          <img src={sellIcon} alt="buyIcon" />
+          <img src={workingIcon} alt="buyIcon" style={{
+            height : '150px', 
+            width : '150px',
+          }} />
           <Typography
             variant="body2"
             sx={{
@@ -155,8 +165,8 @@ const Guide = () => {
               my: 1,
             }}
           >
-            Selling Guides
-          </Typography>
+            Start working          
+     </Typography>
           <Box
             sx={{
               cursor: "pointer",
@@ -177,7 +187,7 @@ const Guide = () => {
       </GuidesBox>
 
       <CustomButton
-        backgroundColor="#0F1B4C"
+        backgroundColor="#D2042D"
         color="#fff"
         buttonText="See Full Guides"
         guideBtn={true}

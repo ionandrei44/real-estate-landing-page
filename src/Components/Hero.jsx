@@ -3,7 +3,7 @@ import { Container } from "@mui/system";
 import React from "react";
 import Navbar from "./Navbar";
 
-import heroImg from "../media/hero_illustration.png";
+import heroImg from "../media/hero_illustration.jpg";
 import CustomButton from "./CustomButton";
 
 const Hero = () => {
@@ -21,7 +21,7 @@ const Hero = () => {
 
   const Title = styled(Typography)(({ theme }) => ({
     fontSize: "64px",
-    color: "#000336",
+    color: "#D2042D",
     fontWeight: "bold",
     margin: theme.spacing(4, 0, 4, 0),
     [theme.breakpoints.down("sm")]: {
@@ -30,7 +30,7 @@ const Hero = () => {
   }));
 
   return (
-    <Box sx={{ backgroundColor: "#E6F0FF", minHeight: "80vh" }}>
+    <Box sx={{ backgroundColor: "#E6F0FF", minHeight: "70vh" }}>
       <Container>
         <Navbar />
         <CustomBox>
@@ -45,8 +45,7 @@ const Hero = () => {
                 mb: 4,
               }}
             >
-              Welcome to Besnik Agency
-            </Typography>
+             Spaces and Innovation is what Inspires us!            </Typography>
             <Title variant="h1">
               Discover a place where you'll love to live.
             </Title>
@@ -54,24 +53,22 @@ const Hero = () => {
               variant="body2"
               sx={{ fontSize: "18px", color: "#5A6473", my: 4 }}
             >
-              Be the first to get the best real estate deals before they hit the
-              mass market! Hot foreclosure deals with one simple search!
+              Work at Cafe & Co-Working Spaces Made Easy and Affordable! Unlock the Best Deals with Us!
             </Typography>
             <CustomButton
-              backgroundColor="#0F1B4C"
+              backgroundColor="#D2042D" 
               color="#fff"
               buttonText="More About Us"
               heroBtn={true}
             />
           </Box>
-
-          <Box sx={{ flex: "1.25" }}>
+         <Box sx={{ flex: "1.25" }}>
             <img
               src={heroImg}
               alt="heroImg"
               style={{ maxWidth: "100%", marginBottom: "2rem" }}
             />
-          </Box>
+          </Box> 
         </CustomBox>
       </Container>
     </Box>
