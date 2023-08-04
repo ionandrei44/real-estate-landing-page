@@ -30,7 +30,7 @@ const Hero = () => {
   }));
 
   return (
-    <Box sx={{ backgroundColor: "#E6F0FF", minHeight: "70vh" }}>
+    <Box sx={{ backgroundColor: "#ffebea", minHeight: "70vh" }}>
       <Container>
         <Navbar />
         <CustomBox>

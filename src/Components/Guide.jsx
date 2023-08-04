@@ -1,9 +1,9 @@
 import { Box, Button, styled, Typography } from "@mui/material";
 import React from "react";
 
-import bookIcon from "../media/icons8-booking-64.png";
-import payIcon from "../media/icons8-pay-100.png";
-import workingIcon from "../media/working.png";
+import bookIcon from "../media/boking.jpg";
+import payIcon from "../media/pay.jpg";
+import workingIcon from "../media/working.jpg";
 
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import CustomButton from "./CustomButton";
@@ -72,7 +72,7 @@ const Guide = () => {
           sx={{
             fontSize: "16px",
             fontWeight: "500",
-            color: "#5A6473",
+            color: "#696969",
             textAlign: "center",
           }}
         >
@@ -84,16 +84,16 @@ const Guide = () => {
       <GuidesBox>
         <GuideBox>
           <img src={bookIcon} alt="buyIcon" style={{
-            height: '150px',
-            width: '150px',
+            height: '200px',
+            width: '250px',
 
           }} />
           <Typography
             variant="body2"
             sx={{
-              fontWeight: "500",
+              fontWeight: "600",
               fontSize: "20px",
-              color: "#3B3c45",
+              color: "#D2042D",
               my: 1,
             }}
           >
@@ -105,29 +105,30 @@ const Guide = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              
             }}
           >
             <Typography
               variant="body2"
-              sx={{ fontWeight: "bold", fontSize: "14px", color: "#0689FF" }}
+              sx={{ fontWeight: "bold", fontSize: "14px", color: "#696969" }}
             >
               How to buy
             </Typography>
-            <ArrowRightAltIcon style={{ color: "#0689FF" }} />
+            <ArrowRightAltIcon style={{ color: "#696969" }} />
           </Box>
         </GuideBox>
 
         <GuideBox>
           <img src={payIcon} alt="buyIcon" style={{
-            height: '150px',
-            width : '150px',
+            height: '200px',
+            width : '200px',
           }} />
           <Typography
             variant="body2"
             sx={{
-              fontWeight: "500",
+              fontWeight: "600",
               fontSize: "20px",
-              color: "#3B3c45",
+              color: "#D2042D",
               my: 1,
             }}
           >
@@ -143,25 +144,25 @@ const Guide = () => {
           >
             <Typography
               variant="body2"
-              sx={{ fontWeight: "bold", fontSize: "14px", color: "#0689FF" }}
+              sx={{ fontWeight: "bold", fontSize: "14px", color: "#696969" }}
             >
               How to rent
             </Typography>
-            <ArrowRightAltIcon style={{ color: "#0689FF" }} />
+            <ArrowRightAltIcon style={{ color: "#696969" }} />
           </Box>
         </GuideBox>
 
         <GuideBox>
           <img src={workingIcon} alt="buyIcon" style={{
-            height : '150px', 
-            width : '150px',
+            height : '200px', 
+            width : '200px',
           }} />
           <Typography
             variant="body2"
             sx={{
-              fontWeight: "500",
+              fontWeight: "600",
               fontSize: "20px",
-              color: "#3B3c45",
+              color: "#D2042D",
               my: 1,
             }}
           >
@@ -177,11 +178,11 @@ const Guide = () => {
           >
             <Typography
               variant="body2"
-              sx={{ fontWeight: "bold", fontSize: "14px", color: "#0689FF" }}
+              sx={{ fontWeight: "bold", fontSize: "14px", color: "#696969" }}
             >
               How to sell
             </Typography>
-            <ArrowRightAltIcon style={{ color: "#0689FF" }} />
+            <ArrowRightAltIcon style={{ color: "#696969" }} />
           </Box>
         </GuideBox>
       </GuidesBox>

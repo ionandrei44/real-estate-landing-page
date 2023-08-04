@@ -1,7 +1,8 @@
-import house1 from "./media/image 4.jpg";
-import house2 from "./media/image 4.jpg";
-import house3 from "./media/image 4.jpg";
-import house4 from "./media/image 4.jpg";
+import house1 from "./media/waveX.png";
+import house2 from "./media/waveX.png";
+
+import house3 from "./media/waveX.png";
+import house4 from "./media/waveX.png";
 import house5 from "./media/image 4.jpg";
 import house6 from "./media/image 4.jpg";
 
@@ -37,6 +38,33 @@ export const properties = [
     bathrooms: 3,
     space: 3000,
   },
+  {
+    id: "4",
+    img: house4,
+    price: "Rs 250/- ",
+    address: "Vaisali nagar , Jaipur ",
+    bedrooms: 2,
+    bathrooms: 2,
+    space: 2000,
+  }, 
+  {
+    id: "4",
+    img: house4,
+    price: "Rs 250/- ",
+    address: "Vaisali nagar , Jaipur ",
+    bedrooms: 2,
+    bathrooms: 2,
+    space: 2000,
+  }, 
+  {
+    id: "4",
+    img: house4,
+    price: "Rs 250/- ",
+    address: "Vaisali nagar , Jaipur ",
+    bedrooms: 2,
+    bathrooms: 2,
+    space: 2000,
+  }, 
   {
     id: "4",
     img: house4,
